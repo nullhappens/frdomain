@@ -1,19 +1,14 @@
-*.class
-*.log
-*.sw?
-.DS_Store
-
-# sbt specific
-.cache/
-.history/
-.lib/
-dist/*
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+.idea/
+.DS_Store
+docker/image/lib
+.metals/
+.bloop
+.bsp
+project/metals.sbt
+.antlr/
+.bsp
+.vscode
+**metals.sbt
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+
