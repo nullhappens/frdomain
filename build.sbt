@@ -17,7 +17,7 @@ lazy val commonSettings = Seq(
       "com.typesafe.slick"           %% "slick"                         % "3.3.3",
       "com.h2database"                % "h2"                            % "1.4.200",
       "com.zaxxer"                    % "HikariCP-java6"                % "2.3.13",
-      "ch.qos.logback"                % "logback-classic"               % "1.1.3",
+      "ch.qos.logback"                % "logback-classic"               % "1.2.6",
       "org.scalacheck"               %% "scalacheck"                    % "1.15.2"       % "test"
     )
 )
